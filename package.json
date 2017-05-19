@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:js": "webpack -w",
-    "watch:server" : "webpack-dev-server --inline --hot" ,
+    "watch:server": "webpack-dev-server --inline --hot",
     "watch": "concurrent \"npm run watch:js\" \"npm run watch:server\""
   },
   "author": "yukiusa",
